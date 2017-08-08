@@ -1,0 +1,23 @@
+{
+  "name": "aleks",
+  "version": "1.0.0",
+  "description": "grunt",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aleksmastalerz/java.git"
+  },
+  "author": "Aleks",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aleksmastalerz/java/issues"
+  },
+  "homepage": "https://github.com/aleksmastalerz/java#readme",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-jshint": "^1.1.0"
+  }
+}
