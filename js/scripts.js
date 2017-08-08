@@ -1,8 +1,9 @@
 // scripts.js
 
 var a=4;
-var h=8;
-var triangleArea=a*h/2;
-alert('Triangle field with base a: ' + a + ' and height h: ' + h + ' is equal to: ' + triangleArea);
-console.log('Triangle field with base a: ' + a + ' and height h: ' + h + ' is equal to: ' + triangleArea);
+var b=8;
+var value=(a * a) + (2 * a * b) - (b * b);
+var whatIsBigger = value > 0 ? 'wynik dodatni' : 'wynik ujemny';
+console.log(value);
+console.log(whatIsBigger);
 // end of the line
