@@ -1,0 +1,20 @@
+body { 
+    margin: 0; 
+    padding: 0; 
+}
+
+.carousel li {
+    list-style: none;
+    border-style: solid;
+    overflow: auto;
+    width: 400px;
+    height: 400px;
+    display: inline;
+    margin-left: 0;
+    margin-right: 0;
+    float: left;
+}
+.carousel ul {
+  width: 2100px;
+  height: 2100px;
+}
