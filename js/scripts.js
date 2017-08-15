@@ -1,22 +1,15 @@
-var femaleNames = ['Asia', 'Kasia', 'Ola', 'Jola'];
-var maleNames = ['Piotrek', 'Marek', 'Arek', 'Jarek'];
+// styles.js
 
-console.log(femaleNames);
-console.log(maleNames);
+var
+  text = 'Velociraptor is a genus of herbivorous ceratopsid dinosaur that first appeared during the late Maastrichtian stage of the late Cretaceous period.',
+  dinosaur = 'triceratops',
+  largeDinosaur = dinosaur.toUpperCase(),
+  text1 = '';
 
-var allNames = femaleNames.concat(maleNames);
+// console.log(dinosaur, largeDinosaur);
 
-console.log(allNames);
-
-var newName = 'Marian';
-
-if (allNames.indexOf(newName) === -1) {
-  allNames.push(newName);
-  var indexOfMarian1 = allNames.indexOf('Marian');
-  console.log('Imię "Marian" zostało dodane do tablicy na pozycji ' + indexOfMarian1 + ' (pamiętaj liczenie rozpoczynamy od zera)');
-} else {
-  var indexOfMarian2 = allNames.indexOf('Marian');
-  console.log('Imię "Marian" znajduje się już w tablicy na pozycji ' + indexOfMarian2 + ' (pamiętaj liczenie rozpoczynamy od zera)');
+if (text.toLowerCase().indexOf('velociraptor') !== -1) {
+  text1 = text.replace('Velociraptor', largeDinosaur);
 }
 
-console.log(allNames);
+console.log(text1.slice(0, text1.length / 2));
