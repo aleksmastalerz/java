@@ -1,19 +1,9 @@
-// styles.js
+//scripts.js
 
-function drawTree (treeHeight) {
-  if (isNaN(treeHeight) || treeHeight <= 0) {
-    alert('this aint a number (or right number in that matter) thickie, now hit reload button');
-  } else {
-    alert('wyrysuje drzewko jak ta lala');
-  }
+var buttonFinder = document.getElementsByClassName('btn');
 
-  for (var i = 0; i < treeHeight; i++) {
-    var star = '';
-    for (var j = -1; j < i; j++) {
-      star += '*';
-    }
-    console.log(star);
-  }
+// console.log(buttonFinder);
+
+for (var i = 0; i < buttonFinder.length; i++) {
+  console.log(buttonFinder[i].innerText);
 }
-
-drawTree(2);
