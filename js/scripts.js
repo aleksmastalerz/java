@@ -1,9 +1,7 @@
-// scripts.js
+function getTriangleArea(a, h) {
+	var whatIsBigger = a > 0 ? '' : 'nieprawidłowe dane';
+	var whatIsBigger = h > 0 ? '' : 'nieprawidłowe dane';
 
-var a=4;
-var b=8;
-var value=(a * a) + (2 * a * b) - (b * b);
-var whatIsBigger = value > 0 ? 'wynik dodatni' : 'wynik ujemny';
-console.log(value);
-console.log(whatIsBigger);
-// end of the line
+return a*h/2;
+}
+console.log( getTriangleArea(10,6) )
