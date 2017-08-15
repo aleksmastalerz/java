@@ -1,9 +1,9 @@
-//scripts.js
+var list = document.getElementById('list');
+var add = document.getElementById('addElem');
 
-var buttonFinder = document.getElementsByClassName('btn');
-
-// console.log(buttonFinder);
-
-for (var i = 0; i < buttonFinder.length; i++) {
-  console.log(buttonFinder[i].innerText);
-}
+add.addEventListener('click', function() {
+	var element = document.createElement('li');
+	var number = document.getElementsByTagName('li');		
+	element.innerHTML = 'item ' + number.length;
+  	list.appendChild(element);
+});
